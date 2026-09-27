@@ -1,0 +1,17 @@
+nombre_planetas=["Tierra","Mercurio","Venus","Saturno","Luna",499,"Plutón",None,"Jupiter","Tierra"]
+print(nombre_planetas)
+nombre_planetas.append("Sol")
+print(nombre_planetas)
+nombre_planetas.remove("Luna")
+print(nombre_planetas)
+nombre_planetas.remove("Sol")
+print(nombre_planetas)
+nombre_planetas.remove(None)
+nombre_planetas.remove(499)
+nombre_planetas.sort()
+print(nombre_planetas)
+print("Hay en total "+str(len(nombre_planetas)))
+print(nombre_planetas[-1])
+print("Lista de Planetas\n")
+for x in nombre_planetas:
+   print(x)
